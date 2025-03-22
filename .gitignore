@@ -1,0 +1,30 @@
+# Ignore database dumps and backups
+*.sql
+*.sql.gz
+*.sql.zip
+*.dump
+
+# Ignore database configuration files (if sensitive)
+*.env
+db_credentials.*
+database.yml
+
+# Ignore temporary or cache files
+*.tmp
+*.log
+*.cache
+
+# Ignore database management tools' files (e.g., MySQL Workbench, pgAdmin)
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore IDE and environment files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore Docker database volumes (if applicable)
+docker-compose.override.yml
+volumes/
