@@ -9,7 +9,7 @@ This repository contains my solutions to the LeetCode SQL 50 problems. Each solu
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/leetcode-sql-50.git
+   git clone https://github.com/yourusername/LeetCode-SQL-50.git
    ```
 
 2. Execute queries using:
