@@ -12,8 +12,8 @@ This repository contains my solutions to the LeetCode SQL 50 problems. Each solu
    git clone https://github.com/yourusername/leetcode-sql-50.git
    ```
 
-Execute queries using:
+2. Execute queries using:
 
-  ```bash
-  mysql -u your_user -p < solutions/01-customers-not-referred.sql
+   ```bash
+   mysql -u your_user -p < solutions/01-customers-not-referred.sql
   ```
