@@ -16,4 +16,4 @@ This repository contains my solutions to the LeetCode SQL 50 problems. Each solu
 
    ```bash
    mysql -u your_user -p < solutions/01-customers-not-referred.sql
-  ```
+
