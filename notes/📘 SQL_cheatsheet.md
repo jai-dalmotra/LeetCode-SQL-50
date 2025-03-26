@@ -20,7 +20,7 @@ SELECT * FROM table_name LIMIT 10;
 ```
 
 ## 2. Aggregate Functions
-```
+```sql
 -- Common aggregates
 SELECT COUNT(*) FROM table_name;
 SELECT SUM(column_name) FROM table_name;
@@ -41,7 +41,7 @@ HAVING COUNT(*) > 1;
 ```
 
 ## 3. Joins
-```
+```sql
 -- Inner Join (Only matching rows in both tables)
 SELECT a.*, b.*
 FROM tableA a
@@ -64,7 +64,7 @@ FULL OUTER JOIN tableB b ON a.id = b.id;
 ```
 
 ## 4. Window Functions
-```
+```sql
 -- Row Number
 SELECT name, ROW_NUMBER() OVER (PARTITION BY department ORDER BY salary DESC) AS rank
 FROM employees;
@@ -75,7 +75,7 @@ FROM employees;
 ```
 
 ## 5. Subqueries
-```
+```sql
 -- Inline Subquery
 SELECT name FROM employees
 WHERE salary > (SELECT AVG(salary) FROM employees);
