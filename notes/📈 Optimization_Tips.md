@@ -50,11 +50,7 @@ GROUP BY department_id;
 EXPLAIN SELECT * FROM employees WHERE id = 1001;
 ```
 
-## 
-
-EXPLAIN SELECT * FROM employees WHERE id = 1001;
-
-7. Partition Large Tables
+## 7. Partition Large Tables
 
 - Partitioning helps with query performance on massive datasets.
 ```sql
