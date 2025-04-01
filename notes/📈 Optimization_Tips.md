@@ -60,6 +60,4 @@ CREATE TABLE orders (
     order_date DATE
 )
 PARTITION BY RANGE (order_date);
-7. Partition Large Tables
 
-Partitioning helps with query performance on massive datasets.
